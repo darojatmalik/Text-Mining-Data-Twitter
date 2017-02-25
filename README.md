@@ -1,13 +1,11 @@
-# SuperZIP demo
-
-See a version of it live at http://shiny.rstudio.com/gallery/superzip-example.html
+# Clustering and Geovisualization of Twitter Text Data using K-Means Algorithm for Forest Fires and Natural Disasters
 
 You can run this demo with:
 ```
-if (!require(devtools))
-  install.packages("devtools")
-devtools::install_github("rstudio/leaflet")
-shiny::runGitHub("rstudio/shiny-examples", subdir="063-superzip-example")
+Please install RStudio 3.3.0 versions or greater
+use MySQL XAMPP server 3.2.2 versions or greater
+create database name "tbkatadasar", and then import the SQL "tbkatadasar.sql" for normalization and stemming process
+Please install package library like in file "server.R"
+
 ```
 
-Data compiled for _Coming Apart: The State of White America, 1960–2010_ by Charles Murray (Crown Forum, 2012). This app was inspired by the Washington Post's interactive feature _[Washington: A world apart](http://www.washingtonpost.com/sf/local/2013/11/09/washington-a-world-apart/)_.
